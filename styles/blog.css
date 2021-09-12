@@ -32,6 +32,10 @@ body .learning {
   color: #111;
 }
 
+.learning h2 {
+  margin-top: 6rem;
+}
+
 /************************************
 *********HEADER STYLES***************
 ************************************/
@@ -61,7 +65,7 @@ header h1 i {
 h2 i {
   color: orange;
   text-shadow: none;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-right: 2rem;
 }
 /************************************
@@ -141,9 +145,9 @@ main {
   background-position: center;
 }
 
-.fa-road {
+/* .fa-road {
   margin-top: 5rem;
-}
+} */
 /* .course-img2 img {
   max-width: 100%;
   border-radius: 4px;
