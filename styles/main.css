@@ -1,0 +1,99 @@
+/*----------------------------------------------- */
+/* Basic Setup */
+/*----------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/*----------------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/*----------------------------------------------- */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(../images/bady_abbas.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: grayscale(40%);
+}
+
+/*  .backgroundImage {
+  background: url(bady_abbas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(40%);
+*/
+
+h1 {
+  font-size: 3rem;
+  color: #eae7dc;
+  text-shadow: 2px 2px 8px #80795c, 0 0 15px #eae7dc;
+}
+
+hr {
+  border: 2px solid #80795c;
+  border-radius: 5px;
+  max-width: 75px;
+  margin: 15px auto;
+  opacity: 0.7;
+}
+
+.buffer {
+  height: 1rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 20px;
+  border: 2px solid;
+  text-transform: uppercase;
+  border-color: #5e5943;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #554e33;
+}
+
+.btn-xl {
+  padding: 1rem 1.5rem;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #a49d81;
+  border-color: #a49d81;
+  border-width: 4px;
+}
