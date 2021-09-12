@@ -41,7 +41,7 @@ header {
 header h1 {
   font-size: 2.8rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
   text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   word-spacing: 1.4rem;
 }
@@ -49,6 +49,7 @@ header h1 {
 header h1 i {
   color: orange;
   text-shadow: none;
+  font-size: 3rem;
 }
 
 /************************************
@@ -63,7 +64,7 @@ main h2 {
 
 main {
   font-size: 1.4rem;
-  line-height: 1.6;
+  line-height: 2;
 }
 
 /************************************
@@ -98,6 +99,37 @@ main {
   transform: scale(1.02);
 }
 
+.course-details2 {
+  margin: 2rem 0 4rem;
+  padding: 1rem 2rem;
+}
+
+.course-details2 h2 {
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-img2 {
+  margin-top: 4rem;
+  margin-left: auto;
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/edgar-chaparro-UJRDiuvp7tc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* .course-img2 img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-img2 img:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+} */
 /* employable-skills SECTION */
 
 .employable-skills {
@@ -185,6 +217,11 @@ h3 {
   margin-left: 5px;
 }
 
+.value-h3 {
+  margin-top: 5rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
 .form {
   padding: 2px;
   font-size: 15px;
@@ -260,6 +297,32 @@ h3 {
   padding: 10px;
 }
 
+.value li {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+  text-decoration: none;
+}
+
+.value li {
+  padding-left: 27px;
+  margin-bottom: 0;
+  background: url(https://www.truity.com/sites/all/themes/bootstrap_truity/images/test/result-check.png)
+    0px 5px no-repeat;
+  background-size: 17px auto;
+}
+
+.value2 {
+  max-width: 90vw;
+  margin: 5rem;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
 /************************************
 *********FOOTER STYLES***************
 ************************************/
@@ -325,7 +388,7 @@ ____________________________________________*/
   }
   main {
     max-width: 90vw;
-    margin: 6rem auto 0;
+    margin: 5rem auto 0;
     display: flex;
     justify-content: space-around;
     align-items: stretch;
