@@ -68,6 +68,11 @@ h2 i {
   font-size: 5rem;
   margin-right: 2rem;
 }
+
+.js-p {
+  font-weight: 600;
+  color: #ffb830;
+}
 /************************************
 ***********MAIN STYLES***************
 ************************************/
@@ -90,7 +95,7 @@ main {
 /* course-details SECTION */
 
 .course-details {
-  margin: 2rem 0 4rem;
+  margin: 2rem 0 3rem;
   padding: 1rem 2rem;
 }
 
@@ -162,6 +167,18 @@ main {
   margin-top: 100px;
   background-size: cover;
 }
+
+.course-img6 {
+  margin-top: 4rem;
+  margin-left: auto;
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/nick-night-sBSmazXa6Bc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* .fa-road {
   margin-top: 5rem;
 } */
@@ -377,6 +394,15 @@ h3 {
   background-size: 17px auto;
 }
 
+.js-value li {
+  padding-left: 27px;
+  margin-bottom: 0;
+  background: url(../images/streamline-icon-video-game-pacman@48x48.png) 0px
+    10px no-repeat;
+  background-size: 17px auto;
+  list-style-type: none;
+}
+
 .timedate {
   float: right;
   font-size: 1.2rem;
@@ -384,6 +410,7 @@ h3 {
   color: #aca4a4;
   margin: 20px 12px;
 }
+
 /************************************
 *********FOOTER STYLES***************
 ************************************/
