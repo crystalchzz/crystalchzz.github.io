@@ -24,6 +24,7 @@ body {
   font-size: 1rem;
   font-family: "Lato", sans-serif;
   color: #111;
+  height: 100%;
 }
 
 body .learning {
@@ -60,18 +61,32 @@ header h1 i {
   color: orange;
   text-shadow: none;
   font-size: 3rem;
+  margin-right: 2rem;
+}
+
+section h2 i {
+  margin-right: 2rem;
 }
 
 h2 i {
   color: orange;
   text-shadow: none;
-  font-size: 5rem;
-  margin-right: 2rem;
+  font-size: 4rem;
 }
 
 .js-p {
   font-weight: 600;
   color: #ffb830;
+}
+
+.n_p .value li {
+  font-weight: 600;
+  color: #ff8d30;
+}
+
+p {
+  /* text-align: center; */
+  margin: 10px;
 }
 /************************************
 ***********MAIN STYLES***************
@@ -80,7 +95,7 @@ h2 i {
 main h2 {
   text-align: center;
   font-size: 2rem;
-  margin: 2rem 0;
+  margin: 15rem 0 5rem 0;
 }
 
 main {
@@ -101,6 +116,7 @@ main {
 
 .course-details h2 {
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 20rem 0 5rem 0;
 }
 
 .course-img {
@@ -127,6 +143,7 @@ main {
 
 .course-details2 h2 {
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 12rem 0 5rem 0;
 }
 
 .course-img2 {
@@ -172,11 +189,67 @@ main {
   margin-top: 4rem;
   margin-left: auto;
   max-width: 100%;
-  height: 400px;
+  height: 480px;
   background-image: url("../images/nick-night-sBSmazXa6Bc-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center bottom;
+}
+
+.course-img7 {
+  background-image: url("../images/bret-kavanaugh-_af0_qAh4K4-unsplash.jpg");
+
+  min-height: 580px;
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.course-img8 {
+  margin-top: 4rem;
+  margin-left: auto;
+  max-width: 100%;
+  height: 580px;
+  background-image: url("../images/jesse-martini-Iod3vdjKE1E-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
+}
+
+.course-img9 {
+  margin-top: 4rem;
+  margin-left: auto;
+  max-width: 100%;
+  height: 480px;
+  background: linear-gradient(
+      0deg,
+      rgba(41, 98, 172, 0.5),
+      rgba(56, 47, 52, 0.096)
+    ),
+    url("../images/karla-hernandez-LrlyZzX6Sws-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.course-img10 {
+  margin-top: 4rem;
+  margin-left: auto;
+  max-width: 100%;
+  height: 560px;
+  background: linear-gradient(
+      0deg,
+      rgba(33, 47, 63, 0.692),
+      rgba(56, 47, 52, 0.096)
+    ),
+    url("../images/sebastian-herrmann-oMpknr7yi7g-unsplash.jpg");
+  /* box-shadow: inset 0 0 0 2000px rgba(94, 135, 168, 0.746); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 /* .fa-road {
@@ -261,7 +334,6 @@ main {
 }
 
 h1 {
-  text-align: center;
 }
 
 .course_outcome {
@@ -275,9 +347,21 @@ h1 {
 }
 
 h3 {
-  margin-top: 10rem;
+  margin: 2rem 1rem;
   font-weight: bold;
-  margin-left: 5px;
+  /* text-align: center; */
+  font-size: 1.5rem;
+}
+
+.center-h3 {
+  margin: 2rem 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.n-h3 {
+  color: #ff8d30;
 }
 
 .value-h3 {
@@ -403,12 +487,22 @@ h3 {
   list-style-type: none;
 }
 
+.n-value li {
+  padding-left: 30px;
+  margin-bottom: 2rem;
+  background: url(../images/streamline-icon-wildlife-protection-shield@48x48.png)
+    0px 10px no-repeat;
+  background-size: 22px auto;
+  list-style-type: none;
+  /* line-height: 4rem; */
+}
+
 .timedate {
-  float: right;
   font-size: 1.2rem;
   font-family: "Lato", sans-serif;
   color: #aca4a4;
-  margin: 20px 12px;
+  margin-top: 2rem;
+  padding-left: 80%;
 }
 
 /************************************
@@ -476,7 +570,7 @@ ____________________________________________*/
   }
   main {
     max-width: 90vw;
-    margin: 5rem auto 0;
+    margin: 2rem auto 0;
     display: flex;
     justify-content: space-around;
     align-items: stretch;
@@ -520,6 +614,6 @@ ____________________________________________*/
   }
   main {
     max-width: 80%;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
