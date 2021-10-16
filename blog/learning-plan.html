@@ -23,7 +23,38 @@
   </head>
 
   <body>
-    <header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Core Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="identity-values.html">Identity and Value</a>
+          <a href="emotional-intelligence.html">EQ</a>
+          <a href="learning-plan.html">Learning Plan</a>
+          <a href="neuroplasticity.html">Neuroplasticity</a>
+          <a href="problem-solving.html">Problem Solving</a>
+          <a href="foundations-reflection.html">Foudation Reflection</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="html-css.html">HTML & CSS</a>
+          <a href="javascript-dom.html">javascript & Dom</a>
+        </div>
+      </div>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <header id="header-style">
       <h1><i class="fas fa-code-branch"></i> Learning Plan</h1>
       <!-- <nav></nav> -->
     </header>
@@ -31,12 +62,12 @@
     <main class="learning">
       
       <section class="course-details2">
+        <div class="timedate"><time datetime="2021-09-19 19:02">
+          September 30 2021 at 23:02pm
+          </time></div> 
         <div class="course-img3">
         </div>
 
-        <div class="timedate"><time datetime="2021-09-19 19:02">
-          September 14th 2021 at 19:02pm
-          </time></div> 
         
         <h2><i class="fas fa-road"></i>Career PathyWay</h2>
         <p>
@@ -114,6 +145,37 @@
           Family and leisure time need to be arrange properly. 
           
         </p>
+        <h2><i class="fas fa-signal"></i>Long term goal and/or career pathway?</h2>
+        <p>
+          I want to find a full-time job so that I can further study and improve my skills. I hope that after completing the course, I can code in a professional design pattern, think more like a programmer, and be able to complete small tasks independently.
+          
+        </p>
+        <h2><i class="fas fa-dumbbell"></i>Biggest strengths and limitations will be in Bootcamp?</h2>
+        <p>
+          Feeling stress and worry about what is going to happen in bootcamp
+          
+        </p>
+        <h2><i class="fas fa-user-edit"></i>Biggest non-technical challenge at Bootcamp will be?</h2>
+        <p>
+          I think their biggest challenge will be time management and speaking in front of the team.
+          
+        </p>
+        <h2><i class="far fa-smile"></i>Non-technical skills - Expected to develope while at Dev Academy?</h2>
+        <p>
+          I would like to improve my communication such as listening skill and be able to express myself better, on top of that giving and receiving feedback in a positive manner. 
+          
+        </p>
+        <h2><i class="fas fa-child"></i>Expectations from the Bootcamp team</h2>
+        <p>
+          Hold my hand …… Take me through the light in the coding tunnel.  
+          
+        </p>
+
+        <h2><i class="fas fa-shoe-prints"></i>Expectations of yourself on Bootcamp</h2>
+        <p>
+          Maintain a mental state both mentally and physically, such as going to bed on time and maintaining a positive attitude, using time recording apps and completing daily tasks by setting goals to keep yourself on track
+          
+        </p>
     
        
       </section>
@@ -135,5 +197,6 @@
         <span>&copy; All rights reserved ;)</span>
       </p>
     </footer>
+    <script src="/main.js"></script>
   </body>
 </html>

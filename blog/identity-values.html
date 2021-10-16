@@ -23,7 +23,38 @@
   </head>
 
   <body>
-    <header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Core Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="identity-values.html">Identity and Value</a>
+          <a href="emotional-intelligence.html">EQ</a>
+          <a href="learning-plan.html">Learning Plan</a>
+          <a href="neuroplasticity.html">Neuroplasticity</a>
+          <a href="problem-solving.html">Problem Solving</a>
+          <a href="foundations-reflection.html">Foudation Reflection</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="html-css.html">HTML & CSS</a>
+          <a href="javascript-dom.html">javascript & Dom</a>
+        </div>
+      </div>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <header id="header-style">
       <h1><i class="fas fa-child"></i> My Identity & Value</h1>
       <!-- <nav></nav> -->
     </header>
@@ -145,5 +176,6 @@
         <span>&copy; All rights reserved ;)</span>
       </p>
     </footer>
+    <script src="/main.js"></script>
   </body>
 </html>
